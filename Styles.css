@@ -1,0 +1,79 @@
+body{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(55, 55, 55);
+    background-color: rgba(181, 132, 132, 0.626);
+}
+.container {
+    width: 700px;
+    margin: 16px auto;  /*centre layout layer*/
+}
+.logo{ 
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px; 
+    text-align: center;
+    color: blue;
+   
+    
+}
+header{
+    text-align: center;
+}
+header img {
+    width: 300px;
+    height: auto;
+   
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+
+}
+nav ul{
+     padding-left: 0;
+}
+nav a, nav a:visited, nav a:active{ 
+    color: rgb(55, 55, 55);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* hover =mouse is on the element*/
+nav a:hover{ 
+    color: red;
+    text-decoration: underline;
+   
+
+
+}
+img {
+    width : 400px;
+    height : auto;
+}
+footer {
+    background-color: rgb(55, 55, 55);
+    color: rgb(241, 241,241);
+    font-size: 12px;
+    padding-top: 16px; 
+    padding-left: 24px;
+    padding-bottom: 16px;
+    /* padding: top right bottom left;*/
+    padding: 16px 24px 16px 24px;
+}
+nav ul li{
+    display: block;
+    margin-right: 20px;
+    text-align: left;
+}
+/* Add this style for the social media icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+/* Adjust the width and height of the social media icons */
+.social-icons a img {
+    width: 30px;  /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin: 0 10px; /* Adjust spacing between social icons */
+}
